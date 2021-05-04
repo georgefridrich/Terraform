@@ -10,7 +10,5 @@ terraform {
 
 # Configure the AWS Provider
 provider "aws" {
-  region     = "us-west-2"
-  access_key = "${file("./awsacc.txt")}"
-  secret_key = "${file("./awsq.txt")}"
+  region = "us-west-2"
 }
